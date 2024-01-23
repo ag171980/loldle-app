@@ -1,0 +1,36 @@
+.filter-champs {
+  background-color: #233144;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+.filter-champ {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.5s all;
+}
+
+.filter-champs::-webkit-scrollbar {
+  background-color: red;
+}
+
+.filter-champs::-webkit-scrollbar-thumb {
+  background-color: #b0911d;
+}
+
+.filter-champs::-webkit-scrollbar-track {
+  background-color: #4C525A;
+}
+
+.filter-champ:hover {
+  cursor: pointer;
+  background-color: #3d434a;
+}
+
+.filter-champ img {
+  height: 40px;
+}
+.filter-champ p {
+  padding: 0 8px;
+}
